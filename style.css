@@ -6,6 +6,11 @@ li {
   display: inline;
 }
 
+a{
+  color:inherit;
+  text-decoration: none;
+}
+
 #main_container {
   width: 1300px;
   margin: 0 auto;
@@ -71,6 +76,7 @@ li {
   font-family: "Oswald";
   font-size: 60px;
   color: #073353;
+  margin-bottom: 0;
 }
 
 .content_image {
@@ -97,6 +103,36 @@ li {
   line-height: 26px;
 }
 
+.button_text:hover{
+  background-color: #196EB1;
+}
+.button_img:hover {
+  background-color: #0B3452;
+}
+.button {
+  display: inline;
+  padding-right: 20px;
+}
+
+.button_img {
+  background-color: #CCC;
+  width: 16px;
+  height: 15px;
+  padding: 8px;
+  margin-bottom: -11px;
+  margin-right: -4px;
+}
+
+.button_text {
+  width: 90px;
+  height: 15px;
+  background-color: #A3B2BE;
+  color: #FFF;
+  font-size: 12px;
+  display: inline;
+  padding: 7px 20px;
+}
+
 #sidebar{
   width: 280px;
   float: right;
@@ -105,14 +141,29 @@ li {
   text-align: center;
 }
 
+.sidebar_avatar {
+display: inline-block;
+margin-top: 50px;
+}
+
 .sidebar_name{
   color: #196EB1;
   font-size: 14px;
+  margin: 0 0 0 0;
 }
 #sidebar ul{
   color: #CCC;
   font-size: 12px;
+  margin: 0 0 50px 0;
 }
+
+.li_avatar img{
+  height: 25px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+
 #sidebar a {
   color: #ACB9C4;
   font-size: 14px;
@@ -124,6 +175,7 @@ li {
   font-size: 20px;
   color: #186DB2;
   float: left;
+  margin-top: 50px;
   margin-bottom: 0;
 }
 
@@ -160,12 +212,15 @@ color: #073353;
 
 #posts img:hover{
   opacity: 0.5;
-  color: blue;
 }
 
 #posts img {
   float: left;
-    background-color: #0B4977;
+}
+
+.post_images {
+  display: inline-block;
+  background-color: #0B4977;
 }
 
 #footer {
